@@ -1,0 +1,239 @@
+
+/* The body section is affecting the whole webpage  */
+
+body {                          
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+
+}
+
+/* The Container is using flex and im putting them into columns, everything on top one another  */
+.container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Navbar section still the upper half of the webpage  */
+
+.navbar {
+
+    display: flex;
+    color: #F9FAF8; 
+    background-color: teal;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+
+}
+
+
+/* this is effecting the image within the header */
+
+.header-logo img {
+
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+/* This pushed the navbar links to the right side and the padding centered on the same line as the image header */
+
+.header-link {
+
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+/* This is effecting the navbar links getting rid of the line, creating space between and making them white*/
+
+.header-link a {
+
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Robto', arial;
+}
+
+/* hero cta SECTION */
+
+.hero {
+
+    display: flex;
+    color: #F9FAF8;
+    background-color: darkgreen;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+/* This is effecting the whole cta section specifically the h1 tag and the image */
+
+.hero-cta {
+
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+
+/* This is effecting the opacity of the paragraph part of this page is dedicated to vegan plant based meals, to help improve your diet. please enjoy! */
+
+.hero-cta p {
+
+    font-family: 'Roboto',arial;
+    opacity: 0.7;
+
+}
+
+/* This is effecting the size and margin of the "this is a plant based help page*/
+
+h1 {
+
+    font-size: 48px;
+    font-weight: bold;
+    color:  #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+/* This is effecting the button "sign up" button */
+
+.hero button {
+
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color:#FFFFFF;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* This is effecting the smoothie image in CTA */
+
+.hero-image img {
+
+    width: 500px;
+    height: 350px;
+}
+
+/* Content Part */
+
+.content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    border: 1px solid gold;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Quotation part */
+
+.quote {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote p {
+
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto',arial;
+}
+
+.quote b {
+
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* Sign Up Part */
+
+.sign-up {
+
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+
+    flex: 1;
+
+}
+
+.sign-text {
+
+    text-align: left;
+
+}
+
+.signs-text p {
+
+    color:#FFF;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+
+    color:#FFFFFF;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button-button {
+
+    color: #FFF;
+    font-family: 'Roboto', arial;
+    border-color: #FFF;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+
+    background-color: #1f2937;
+    color: #FFF;
+    font-family: 'Roboto', arial;
+}
